@@ -1,0 +1,18 @@
+{
+  "name": "your-ishihara",
+  "version": "0.0.1",
+  "authors": [
+    "Chen-Dah Chiang <chiangchendah@gmail.com>"
+  ],
+  "description": "Hack Reactor Solo MVP",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "Processing.js": "~1.4.15",
+    "Snap.svg": "git://github.com/adobe-webplatform/Snap.svg.git#~0.4.1"
+  }
+}
