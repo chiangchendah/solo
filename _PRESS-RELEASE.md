@@ -33,7 +33,6 @@ You have the option to upload a simple image of your choice or add as much text 
 Children who have yet to learn to read cannot tell you the name of numbers. This renders commonly used Ishihara test images useless.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
 
 With custom Ishihara plates, those who are curious if their child has color blindness can now carry out tests in any web browser at home.
 
