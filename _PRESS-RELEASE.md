@@ -17,28 +17,50 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  <!-- Name the product in a way the reader (i.e. your target customers) will understand. -->
+
+Watashi no Ishihara // Your Ishihara
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  <!-- Describe who the market for the product is and what benefit they get. One sentence only underneath the title. -->
+
+Vision therapists, pediatricians, teachers, and anyone who desires to carry out an Ishihara test.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  <!-- Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good. -->
+
+You have the option to upload a simple image of your choice or add as much text as possible within the circle of an Ishihara test plate.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  <!-- Describe the problem your product solves. -->
+
+Children who have yet to learn to read cannot tell you the name of numbers. This renders commonly used Ishihara test images useless.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+With custom Ishihara plates, those who are curious if their child has color blindness can now carry out tests in any web browser at home.
+
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  <!-- A quote from a spokesperson in your company. -->
+
+> We are trying to advertise to only colour blind people and would like to hide messages in these tests. This is great.
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  <!-- Describe how easy it is to get started. -->
+
+Open your browser, input text or upload an image. Boom.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  <!-- Provide a quote from a hypothetical customer that describes how they experienced the benefit. -->
+
+> Thanks for this! I was also wondering if my 2 year old son had red/green colorblindness, and using your product I was able to determine that he doesn’t.
+
+> I am a neuroscientist and I study perception and attention. I wanted to create a unique set of stimuli for studying perception and this was ideal.
+
+> I love what you did here with the Ishihara test. My husband to be and I are both eye doctors. I want to use the Ishihara numbers as our table numbers at our upcoming wedding. I used your tool to create the actual plates and they look amazing. Thanks!
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  <!-- Wrap it up and give pointers where the reader should go next. -->
+
+_website coming soon._
