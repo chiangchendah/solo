@@ -1,10 +1,16 @@
 <!DOCTYPE html >
 <html>
   <head>
-    <!-- <link rel='stylesheet' type='css' href='styles.css'>  -->
+    <link rel='stylesheet' type='css' href='style.css'> 
   </head>
   <body>
     <script src="./bower_components/Processing.js/processing.min.js"></script>
-    <canvas data-processing-sources="pde/ishihara.pde"></canvas>
+    <canvas tabindex="0" data-processing-sources="pde/ishihara.pde"></canvas>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) { 
+        // autofocus on canvas
+        document.getElementsByTagName("canvas")[0].focus();
+      });
+    </script>
   </body>
 </html>
