@@ -176,15 +176,18 @@ class Circle
   
 }
 
-// Click on the image to give it focus,
-// and then press s key to save image.
+// Must click on the image to give it focus first
 void keyPressed() {
+  // press s key to save image.
   if (key == 's') {
     save();
   }
  
-  // if (key == '1') { dimg = 0; }
-  // if (key == '2') { dimg = 1; } 
-  // redraw();
+  // select different image.
+  if (key == '1') { background(); motive = loadImage("img/bear.png"); redraw(); }
+  if (key == '2') { background(); motive = loadImage("img/butterfly.png"); redraw(); }
+  if (key == '3') { background(); motive = loadImage("img/duck.png"); redraw(); }
+  if (key == '4') { background(); motive = loadImage("img/tree.png"); redraw(); }
+  if (key == '5') { background(); motive = loadImage("img/5.png"); redraw(); }
 }
 
