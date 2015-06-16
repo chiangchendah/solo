@@ -9,11 +9,13 @@ int minDiameter = 8;
 int lastAdded = 0;
 int lastAddedTimeout = 100;
 int lastX = -1, lastY = -1;
+int COLOR = 1;
 
 PImage motive;
 
 color[] off, on;
 
+// variables declared within setup() are not accessible within other functions
 void setup() {
   size(600, 600);
   smooth();
@@ -23,18 +25,18 @@ void setup() {
 
   motive = loadImage("img/"+motiv+".png");
   
+  // color from the interwebs, used as default
   color[] _off = {
-// style 1
-   // color(#9CA594), color(#ACB4A5), color(#BBB964), color(#D7DAAA), color(#E5D57D), color(#D1D6AF)
-// style 2
-     color(#F49427), color(#C9785D), color(#E88C6A), color(#F1B081), color(#FFCE00)
+  // style 1
+    // color(#9CA594), color(#ACB4A5), color(#BBB964), color(#D7DAAA), color(#E5D57D), color(#D1D6AF)
+  // style 2
+    color(#F49427), color(#C9785D), color(#E88C6A), color(#F1B081), color(#FFCE00)
   };
-  
   color[] _on = {
-// style 1
+  // style 1
     // color(#F9BB82), color(#EBA170), color(#FCCD84)
-// style 2
-    color(#89B270), color(#7AA45E),  color(#B6C674),  color(#7AA45E),  color(#B6C674), color(#FECB05)
+  // style 2
+    color(#89B270), color(#7AA45E), color(#B6C674), color(#7AA45E), color(#B6C674), color(#FECB05)
   };
 
   on = _on;
@@ -160,14 +162,17 @@ class Circle
   } 
   
   void draw() {
-    // B & W
-    // if (fg < 0) fg = overlapsMotive() ? color(#000000) : color(#F1F1F1);
-
-    // Normal Color
-    if (fg < 0) fg = overlapsMotive() ? color(#F75B23) : color(#798B7D);
-
-    // from the internet
-    // if (fg < 0) fg = overlapsMotive() ? on[int(random(0,on.length))] : off[int(random(0,off.length))];
+    switch(COLOR) {
+      case 1: 
+        if (fg < 0) fg = overlapsMotive() ? on[int(random(0, on.length))] : off[int(random(0, off.length))];
+      break;
+      case 2: 
+        if (fg < 0) fg = overlapsMotive() ? color(#000000) : color(#F1F1F1);
+      break;
+      case 3: 
+        if (fg < 0) fg = overlapsMotive() ? color(#F75B23) : color(#798B7D);
+      break;
+     }
    
     fill(fg);
     noStroke();
@@ -189,5 +194,9 @@ void keyPressed() {
   if (key == '3') { background(); motive = loadImage("img/duck.png"); redraw(); }
   if (key == '4') { background(); motive = loadImage("img/tree.png"); redraw(); }
   if (key == '5') { background(); motive = loadImage("img/5.png"); redraw(); }
+
+  // select different color.
+  if (key == 'b') { background(); COLOR = 2; redraw(); }
+  if (key == 'n') { background(); COLOR = 3; redraw(); }
 }
 
