@@ -13,6 +13,6 @@
   ],
   "dependencies": {
     "Processing.js": "~1.4.15",
-    "Snap.svg": "git://github.com/adobe-webplatform/Snap.svg.git#~0.4.1"
+    "bootstrap": "~3.3.5"
   }
 }
