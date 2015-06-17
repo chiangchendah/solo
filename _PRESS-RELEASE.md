@@ -40,11 +40,7 @@ Open your browser.
 
 ##### Customer Quote #####
 
-> Thanks for this! I was also wondering if my 2 year old son had red/green colorblindness, and using your product I was able to determine that he doesn’t.
-
 > I am a neuroscientist and I study perception and attention. I wanted to create a unique set of stimuli for studying perception and this was ideal.
-
-> I love what you did here with the Ishihara test. My husband to be and I are both eye doctors. I want to use the Ishihara numbers as our table numbers at our upcoming wedding. I used your tool to create the actual plates and they look amazing. Thanks!
 
 ### Closing and Call to Action ###
 
