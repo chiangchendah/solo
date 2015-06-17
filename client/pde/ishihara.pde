@@ -189,6 +189,7 @@ void keyPressed() {
   }
  
   // select different image.
+  if (key == '0') { background(); motive = loadImage("img/dog.png"); redraw(); }
   if (key == '1') { background(); motive = loadImage("img/bear.png"); redraw(); }
   if (key == '2') { background(); motive = loadImage("img/butterfly.png"); redraw(); }
   if (key == '3') { background(); motive = loadImage("img/duck.png"); redraw(); }
@@ -198,5 +199,6 @@ void keyPressed() {
   // select different color.
   if (key == 'b') { background(); COLOR = 2; redraw(); }
   if (key == 'n') { background(); COLOR = 3; redraw(); }
+
 }
 
