@@ -1,5 +1,3 @@
-# Solo MVP #
-
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
 
@@ -16,35 +14,31 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
+# Watashi no Ishihara // Your Ishihara #
 
-Watashi no Ishihara // Your Ishihara
+For vision therapists, pediatricians, teachers, and anyone who desires to carry out an [Ishihara test](https://en.wikipedia.org/wiki/Ishihara_Test).
 
-## Sub-Heading ##
+##### Summary #####
 
-Vision therapists, pediatricians, teachers, and anyone who desires to carry out an Ishihara test.
+You have the option to show a simple image of your choice within the circle of an Ishihara test plate.
 
-## Summary ##
-
-You have the option to upload a simple image of your choice or add as much text as possible within the circle of an Ishihara test plate.
-
-## Problem ##
+##### Problem #####
 
 Children who have yet to learn to read cannot tell you the name of numbers. This renders commonly used Ishihara test images useless.
 
-## Solution ##
+##### Solution #####
 
 With custom Ishihara plates, those who are curious if their child has color blindness can now carry out tests in any web browser at home.
 
-## Quote from You ##
+##### Company Quote #####
 
-> We are trying to advertise to only colour blind people and would like to hide messages in these tests. This is great.
+> We are trying to advertise to only colour blind people and would like to hide messages in these tests. This is a great start.
 
-## How to Get Started ##
+##### How to Get Started #####
 
-Open your browser, input text or upload an image. Boom.
+Open your browser.
 
-## Customer Quote ##
+##### Customer Quote #####
 
 > Thanks for this! I was also wondering if my 2 year old son had red/green colorblindness, and using your product I was able to determine that he doesn’t.
 
@@ -52,6 +46,8 @@ Open your browser, input text or upload an image. Boom.
 
 > I love what you did here with the Ishihara test. My husband to be and I are both eye doctors. I want to use the Ishihara numbers as our table numbers at our upcoming wedding. I used your tool to create the actual plates and they look amazing. Thanks!
 
-## Closing and Call to Action ##
+### Closing and Call to Action ###
 
 _website coming soon._
+
+_Disclaimer: Information provided on this website is intended for your general information only and must not be regarded as a replacement for professional health advice. If you have, or suspect you have a health problem, please consult your doctor._
