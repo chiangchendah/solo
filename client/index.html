@@ -1,11 +1,39 @@
 <!DOCTYPE html >
 <html>
   <head>
-    <link rel='stylesheet' type='css' href='style.css'> 
+    <link rel='stylesheet' type='css' href='style.css'>
+    <link rel='stylesheet' type='css' href='bower_components/bootstrap/dist/css/bootstrap.min.css'>
   </head>
   <body>
-    <script src="./bower_components/Processing.js/processing.min.js"></script>
-    <canvas tabindex="0" data-processing-sources="pde/ishihara.pde"></canvas>
+    <script src="bower_components/Processing.js/processing.min.js"></script>
+
+    <main class="container text-center">
+      <canvas tabindex="0" data-processing-sources="pde/ishihara.pde"></canvas>
+      <div class="notation">
+        Press 'b' and 'n' for different filters
+      </div>
+      <article>
+        <div class="idx-container">
+          <span class="idx">0</span><img src="img/dog.png" alt="0">
+        </div>
+        <div class="idx-container">
+          <span class="idx">1</span><img src="img/bear.png" alt="1">
+        </div>
+        <div class="idx-container">
+          <span class="idx">2</span><img src="img/butterfly.png" alt="2">
+        </div>
+        <div class="idx-container">
+          <span class="idx">3</span><img src="img/duck.png" alt="3">
+        </div>
+        <div class="idx-container">
+          <span class="idx">4</span><img src="img/tree.png" alt="4">
+        </div>
+        <div class="idx-container">
+          <span class="idx">5</span><img src="img/5.png" alt="5">
+        </div>
+      </article>
+    </main>
+
     <script>
       document.addEventListener("DOMContentLoaded", function(event) { 
         // autofocus on canvas

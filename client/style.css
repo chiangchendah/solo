@@ -1,0 +1,26 @@
+canvas {
+  outline: 0;
+}
+
+article {
+  min-width: 600px;
+}
+
+img {
+  width: 50px;
+}
+
+.idx-container {
+  position: relative;
+  display: inline-block;
+}
+.idx {
+  position: absolute;
+  bottom: -9px;
+  left: 20px;
+  font-size: 11px;
+}
+
+.notation {
+  font-size: 11px;
+}
