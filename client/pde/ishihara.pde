@@ -1,4 +1,9 @@
 // Processing code
+
+// TODO: allow dynamic image uploads
+// TODO: render text strings
+// TODO: accept input of strings
+
 Circle[] circles = new Circle[5000];
 
 String motiv = "dog";
@@ -197,8 +202,8 @@ void keyPressed() {
   if (key == '5') { background(); motive = loadImage("img/5.png"); redraw(); }
 
   // select different color.
+  if (key == 'v') { background(); COLOR = 1; redraw(); }
   if (key == 'b') { background(); COLOR = 2; redraw(); }
   if (key == 'n') { background(); COLOR = 3; redraw(); }
 
 }
-
